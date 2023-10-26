@@ -3,7 +3,7 @@ import streamlit as st
 
 model = pickle.load(open('estimasi_diffusion_index_in_japan.sav', 'rb'))
 
-st.title('Diffusion index in Japan')
+st.title('Diffusion index estimation in Japan')
 
 year = st.number_input('Input Tahun')
 month = st.number_input('Input Bulan')
